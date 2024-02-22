@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Bcomponent from "./Context/Bcomponent";
+import Ccomponent from "./Context/Ccomponent";
+import Dcomponent from "./Context/Dcomponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Ccomponent />
+      <Bcomponent />
+      <Dcomponent />
     </div>
   );
 }
